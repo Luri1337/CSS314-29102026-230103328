@@ -1,0 +1,32 @@
+{
+  "recorded_utc": "2026-10-29T07:37:56.902328+00:00",
+  "hostname": "Computer",
+  "os": "Windows",
+  "os_release": "11",
+  "os_version": "10.0.26300",
+  "architecture": "AMD64",
+  "cpu_model": "AMD Ryzen 5 5600H with Radeon Graphics",
+  "microarchitecture": "not reliably identified; verify from CPU model datasheet",
+  "physical_cores": 6,
+  "logical_threads": 12,
+  "smt_detected": true,
+  "l1_data_cache_bytes_per_core": 32768,
+  "l2_cache_bytes_per_core_or_cluster": 524288,
+  "l3_shared_cache_bytes_per_domain": 16777216,
+  "cache_line_bytes": 64,
+  "reported_frequency_mhz": 3294,
+  "frequency_source": "Windows registry ~MHz (current/reported, not guaranteed base)",
+  "python_version": "3.14.0",
+  "python_implementation": "CPython",
+  "python_executable": "C:\\Users\\Dima\\PycharmProjects\\css2910\\.venv\\Scripts\\python.exe",
+  "raw_observations": {
+    "physical_cores": 6,
+    "cache_line_bytes": 64,
+    "l1_data_cache_bytes_per_core": 32768,
+    "l2_cache_bytes_per_core_or_cluster": 524288,
+    "l3_shared_cache_bytes_per_domain": 16777216,
+    "model": "AMD Ryzen 5 5600H with Radeon Graphics",
+    "reported_frequency_mhz": 3294,
+    "frequency_source": "Windows registry ~MHz (current/reported, not guaranteed base)"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "n_base": 1024,
+  "processes": [
+    1,
+    2,
+    4
+  ],
+  "steps": 20,
+  "amdahl_serial_fraction_fit": 0.22626082251508145,
+  "amdahl_raw_serial_fraction_fit": 0.22626082251508145,
+  "amdahl_S_max": 4.41967809046281,
+  "gustafson_barsis_model_speedups": {
+    "1": 1.0,
+    "2": 1.7737391774849185,
+    "4": 3.3212175324547557
+  },
+  "weak_scaling_runs": [
+    {
+      "p": 1,
+      "dimension": 1024,
+      "median_seconds": 0.3864323,
+      "pdf_scaled_speedup": 1.0369503273924048
+    },
+    {
+      "p": 2,
+      "dimension": 1449,
+      "median_seconds": 0.4494983,
+      "pdf_scaled_speedup": 0.8894018824936049
+    },
+    {
+      "p": 4,
+      "dimension": 2048,
+      "median_seconds": 0.8243733,
+      "pdf_scaled_speedup": 0.4851298301210062
+    }
+  ],
+  "flops_per_output_cell": 5,
+  "nominal_bytes_per_output_cell": 48,
+  "nominal_arithmetic_intensity_flops_per_byte": 0.10416666666666667,
+  "important_limitation": "Nominal 5 loads and 1 store are not measured DRAM traffic; cache reuse and write allocation are ignored.",
+  "peak_theoretical_memory_bandwidth_gb_s": 51.2,
+  "peak_theoretical_compute_gflops": 316.8,
+  "measured_stride1_logical_read_gb_s": 6.6511589922495995,
+  "roofline_ridge_point_flops_per_byte": 6.1875,
+  "roofline_predicted_region": "memory_bandwidth_bound",
+  "roofline_predicted_ceiling_gflops": 5.333333333333334,
+  "pdf_weak_formula_note": "The PDF formula normalizes by Work(P)/Work(1); with Work(P)~P Work(1), it is approximately a relative runtime/throughput efficiency, NOT the conventional Gustafson scaled speedup."
+}

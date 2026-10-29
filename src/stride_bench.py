@@ -1,4 +1,3 @@
-"""Milestone 1.1: NumPy/C-level reductions over strided float64 views."""
 from __future__ import annotations
 import argparse
 import csv

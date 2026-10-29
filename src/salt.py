@@ -1,4 +1,3 @@
-"""Student-ID parameter formulas copied verbatim from CS482 PDF (page 2)."""
 import hashlib, os
 
 def get_student_params(student_id: str):
@@ -12,7 +11,6 @@ def get_student_params(student_id: str):
     return {"student_id": student_id, "N": N, "buffer_elements": buffer_elements, "seed": seed}
 
 
-# Helpers below are project-specific glue. They do not alter the PDF function.
 import argparse
 import json
 from pathlib import Path

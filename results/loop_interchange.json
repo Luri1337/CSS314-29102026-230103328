@@ -1,0 +1,28 @@
+{
+  "matrix_dimension_m": 512,
+  "seed": 83405,
+  "backend": "numba",
+  "repeats": 3,
+  "naive_ijk": {
+    "median_seconds": 0.9806738,
+    "per_run_ns": [
+      1001659700,
+      980673800,
+      978157300
+    ],
+    "sha256_6dp": "428b20775080014d45974433e3e65c6b195dedb287c2cb8cfb2edfaf1a43e479"
+  },
+  "interchanged_ikj": {
+    "median_seconds": 0.0184376,
+    "per_run_ns": [
+      18233900,
+      18561100,
+      18437600
+    ],
+    "sha256_6dp": "428b20775080014d45974433e3e65c6b195dedb287c2cb8cfb2edfaf1a43e479"
+  },
+  "speedup": 53.18879897600556,
+  "max_abs_difference": 0.0,
+  "max_abs_vs_numpy_reference": 3.979039320256561e-13,
+  "passes_absolute_1e_minus_12": true
+}
