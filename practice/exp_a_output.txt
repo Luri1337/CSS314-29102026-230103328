@@ -1,0 +1,17 @@
+Experiment A | Student ID: 230103328 | 1,000,000 Collatz tasks
+
+Chunksize = 1
+Workers | Time (s) | Speedup | Efficiency | Karp-Flatt e(p) | Checksum
+
+      1 |   81.955 |   1.000x |     100.0% | N/A             | 131434424
+      2 |   89.664 |   0.914x |      45.7% | 1.1881          | 131434424
+      4 |   89.295 |   0.918x |      22.9% | 1.1194          | 131434424
+      8 |   86.517 |   0.947x |      11.8% | 1.0636          | 131434424
+
+Chunksize = 10,000
+Workers | Time (s) | Speedup | Efficiency | Karp-Flatt e(p) | Checksum
+      1 |   10.983 |   1.000x |     100.0% | N/A             | 131434424
+      2 |    5.627 |   1.952x |      97.6% | 0.0247          | 131434424
+      4 |    3.314 |   3.314x |      82.8% | 0.0690          | 131434424
+      8 |    2.297 |   4.782x |      59.8% | 0.0961          | 131434424
+VERIFICATION: PASS - all Collatz checksums match
