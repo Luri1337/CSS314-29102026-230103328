@@ -1,0 +1,7 @@
+Experiment B | Student ID: 230103328 | 400,000 Queue.put calls
+Workers | Time (s) | Speedup | Efficiency | Karp-Flatt e(p) | Checksum
+      1 |    8.755 |   1.000x |     100.0% | N/A             | 1199997
+      2 |   49.705 |   0.176x |       8.8% | 10.3545         | 1199988
+      4 |   81.985 |   0.107x |       2.7% | 12.1522         | 1199980
+      8 |  146.606 |   0.060x |       0.7% | 18.9943         | 1199976
+VERIFICATION: PASS - all queue checksums correct
